@@ -77,11 +77,18 @@
       <a-box position="0 0.5 0" material="opacity: 0.5;"></a-box>-->
 
     <!-- define a camera which will move according to the marker position -->
-    <!--<a-marker preset="hiro" id="marker-hiro" registerevents>-->
+    <a-marker preset="hiro" id="marker-hiro" registerevents>
+    <a-entity id="white_tower" position="0 0 0" gblock="https://poly.google.com/view/eCRz1gT97kK" scale="0.2 0.2 0.2" rotation="0 0 0"></a-entity>
+    </a-marker>
+      
+      
     <a-marker type="pattern" url="https://cdn.glitch.com/34828522-1f62-4fd6-9641-607dd6c5b915%2Fchimney_clean.patt?1547931669647" registerevents>
+      
     <!--<a-entity id="white_tower" position="0 0 0" gblock="https://poly.google.com/view/eCRz1gT97kK" scale="0.2 0.2 0.2" rotation="0 0 0">-->
-    <a-entity id="dark_tower" position="0 0 0" gblock="https://poly.google.com/view/4qQvyq9pn3P" scale="30 30 30" rotation="-90 0 0">
-    <!--<a-animation attribute="rotation" to="360 0 0" dur="5000" easing="linear" repeat="1"></a-animation>-->
+    
+    <a-entity id="dark_tower" position="0 0 0" gblock="https://poly.google.com/view/4qQvyq9pn3P" scale="140 140 140" rotation="-90 0 0">
+    <!--<a-animation attribute="rotation" to="360 0 0" dur="5000" easing="linear" repeat="1"></a-animation>attribute="position" from="1 1 1" to="2 4 -8"-->
+    <!--<a-animation attribute="scale" from="1 1 1" to="30 30 30" dur="5000" easing="linear" repeat="0"></a-animation>-->
     </a-entity>
     
     </a-marker>
